@@ -52,7 +52,6 @@
             $("#user").html('');
             $(".unauthenticated").show();
             $(".authenticated").hide();
-            window.location.href = "/";
         },
         error: function(xhr) {
             console.error('Logout failed:', xhr.status, xhr.statusText);

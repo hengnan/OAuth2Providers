@@ -1,1 +1,17 @@
+server:
+  port: 8080
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          github:
+            client-id: YOUR_GITHUB_CLIENT_ID
+            client-secret: YOUR_GITHUB_CLIENT_SECRET
+          google:
+            client-id: YOUR_GOOGLE_CLIENT_ID
+            client-secret: YOUR_GOOGLE_CLIENT_SECRET
 
+logging:
+  level:
+    org.springframework.security: DEBUG
